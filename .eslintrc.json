@@ -25,7 +25,11 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "plugin:tailwindcss/recommended",
     "prettier"
+  ],
+  "ignorePatterns": [
+    "*.config.js"
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": 0,
