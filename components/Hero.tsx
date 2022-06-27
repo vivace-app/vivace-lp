@@ -1,10 +1,10 @@
 import AppStore from '../public/svg/AppStore.svg'
 
-function Hero() {
+const Hero = () => {
   return (
     <>
-      <div className="min-h-screen hero bg-base-200">
-        <div className="text-center hero-content">
+      <div className="hero min-h-screen bg-base-200">
+        <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">VIVACE</h1>
             <div className="flex justify-center">
@@ -23,7 +23,7 @@ function Hero() {
                 <img
                   alt="Get it on Google Play"
                   src="https://play.google.com/intl/ja/badges/static/images/badges/en_badge_web_generic.png"
-                  className="mt-8 ml-2 w-36 h-14"
+                  className="mt-8 ml-2 h-14 w-36"
                 />
               </a>
             </div>
