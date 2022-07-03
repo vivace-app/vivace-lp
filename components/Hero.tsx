@@ -3,10 +3,10 @@ import AppStore from '../public/svg/AppStore.svg'
 const Hero = () => {
   return (
     <>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-screen bg-[url('/img/heroR.jpg')]">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold">VIVACE</h1>
+            <h1 className="text-5xl font-bold text-primary">VIVACE</h1>
             <div className="flex justify-center">
               <a
                 href="https://apps.apple.com/jp/app/vivace-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E9%9F%B3%E3%82%B2%E3%83%BC/id1581121832"

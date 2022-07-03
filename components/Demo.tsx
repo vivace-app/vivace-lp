@@ -1,7 +1,7 @@
 const Demo = () => {
   return (
     <>
-      <div id="demo" className="flex justify-center bg-base-200">
+      <div id="demo" className="flex justify-center bg-base-100 pt-40">
         <div className="max-w-md">
           <iframe
             className="mb-20 h-fit w-fit sm:mb-40 sm:h-[270px] sm:w-[480px] md:h-[315px] md:w-[560px]"

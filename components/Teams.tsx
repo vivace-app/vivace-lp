@@ -3,7 +3,7 @@ import Team from './Team'
 const Teams = () => {
   return (
     <>
-      <div id="team" className="bg-base-200">
+      <div id="team" className="bg-base-100">
         <div className="max-w-md">
           <h2 className="ml-10 text-xl sm:ml-20 sm:text-2xl">制作者</h2>
         </div>

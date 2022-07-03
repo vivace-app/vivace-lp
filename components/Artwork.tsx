@@ -11,7 +11,7 @@ const Artwork = (props: ArtWorkProps) => {
     <>
       <label htmlFor={'my-modal-' + props.title}>
         <img
-          className="mask mask-squircle"
+          className="mask mask-squircle cursor-pointer"
           src="https://api.lorem.space/image/shoes?w=160&h=160"
           alt="image"
         />
@@ -21,8 +21,8 @@ const Artwork = (props: ArtWorkProps) => {
         id={'my-modal-' + props.title}
         className="modal-toggle"
       />
-      <div className="modal">
-        <div className="modal-box relative">
+      <div className="modal bg-secondary/30">
+        <div className="modal-box relative bg-secondary">
           <label
             htmlFor={'my-modal-' + props.title}
             className="btn btn-ghost btn-circle absolute right-2 top-2"

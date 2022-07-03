@@ -1,14 +1,14 @@
 const News = () => {
   return (
     <>
-      <div id="news" className="bg-base-200">
+      <div id="news" className="bg-base-100">
         <div className="max-w-md">
           <h2 className="ml-10 text-xl sm:ml-20 sm:text-2xl">
             お知らせ・更新情報
           </h2>
         </div>
         <div className="mt-10 flex justify-center">
-          <ul className="menu rounded-box mb-20 w-2/3 bg-base-100 p-2 sm:mb-40">
+          <ul className="menu rounded-box mb-20 w-2/3 bg-secondary p-2 sm:mb-40">
             <li>
               <a>
                 Item 1

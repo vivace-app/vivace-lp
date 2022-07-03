@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <div className="navbar rounded-box w-auto bg-base-300">
+      <div className="navbar rounded-box sticky top-0 z-10 w-auto bg-secondary/75">
         <div className="flex flex-1 justify-end px-2">
           <div className="flex items-stretch">
             <a
@@ -40,11 +40,11 @@ const Header = () => {
             >
               お問い合わせ
             </a>
-            <a className="btn">楽曲提供はこちら</a>
+            <a className="btn ml-2">楽曲提供はこちら</a>
             <div className="dropdown dropdown-end">
               <label
                 tabIndex="0"
-                className="btn btn-ghost rounded-btn lg:hidden"
+                className="btn btn-ghost rounded-btn ml-2 lg:hidden"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
                   <path d="M6 36V33H42V36ZM6 25.5V22.5H42V25.5ZM6 15V12H42V15Z" />
@@ -52,7 +52,7 @@ const Header = () => {
               </label>
               <ul
                 tabIndex="0"
-                className="dropdown-content menu rounded-box mt-4 w-52 bg-base-100 p-2 shadow"
+                className="dropdown-content menu rounded-box mt-4 w-52 bg-secondary p-2 shadow"
               >
                 <li>
                   <a href="#demo">デモ</a>

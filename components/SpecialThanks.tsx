@@ -3,7 +3,7 @@ import Person from './Person'
 const SpecialThanks = () => {
   return (
     <>
-      <div id="thanks" className="bg-base-200">
+      <div id="thanks" className="bg-base-100">
         <div className="max-w-md">
           <h2 className="ml-10 text-xl sm:ml-20 sm:text-2xl">Special Thanks</h2>
         </div>
