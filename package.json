@@ -50,5 +50,10 @@
       "yarn format",
       "yarn lint:fix"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
   }
 }
